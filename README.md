@@ -29,7 +29,7 @@ On line #2 we could make the value of 'i' variable negative if kiRunIdx will be 
 
 Which will lead to pMbAllocMap overflow.
 
-``
+```
 $ git clone https://github.com/cisco/openh264
 $ cd openh264
 $ USE_ASAN=Yes make
